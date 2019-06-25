@@ -8,6 +8,8 @@ namespace Chapter01._01.IsUnique
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(IsUnique("abc"));
+            Console.WriteLine(IsUnique("abca"));
         }
 
         /// <summary>
