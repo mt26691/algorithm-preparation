@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28922.388
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01.01.IsUnique", "Chapter01.01.IsUnique\Chapter01.01.IsUnique.csproj", "{3CFE1655-3303-4C29-B0B7-8434F284C93C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.01.IsUnique", "Chapter01.01.IsUnique\Chapter01.01.IsUnique.csproj", "{3CFE1655-3303-4C29-B0B7-8434F284C93C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01.02.CheckPermutation", "Chapter01.02.CheckPermutation\Chapter01.02.CheckPermutation.csproj", "{4E771737-B342-47FB-A49E-C319E39185A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.02.CheckPermutation", "Chapter01.02.CheckPermutation\Chapter01.02.CheckPermutation.csproj", "{4E771737-B342-47FB-A49E-C319E39185A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01.03.URLify", "Chapter01.03.URLify\Chapter01.03.URLify.csproj", "{786DC35E-8142-4525-A2D8-5BC20BAB156D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01.04.PalindromePermutation", "Chapter01.04.PalindromePermutation\Chapter01.04.PalindromePermutation.csproj", "{F9C4823A-8597-4A6C-A2A4-7F5605747F04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{4E771737-B342-47FB-A49E-C319E39185A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E771737-B342-47FB-A49E-C319E39185A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E771737-B342-47FB-A49E-C319E39185A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786DC35E-8142-4525-A2D8-5BC20BAB156D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786DC35E-8142-4525-A2D8-5BC20BAB156D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786DC35E-8142-4525-A2D8-5BC20BAB156D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786DC35E-8142-4525-A2D8-5BC20BAB156D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C4823A-8597-4A6C-A2A4-7F5605747F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C4823A-8597-4A6C-A2A4-7F5605747F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C4823A-8597-4A6C-A2A4-7F5605747F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C4823A-8597-4A6C-A2A4-7F5605747F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
