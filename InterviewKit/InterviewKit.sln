@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.01.IsUnique", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.02.CheckPermutation", "Chapter01.02.CheckPermutation\Chapter01.02.CheckPermutation.csproj", "{4E771737-B342-47FB-A49E-C319E39185A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01.03.URLify", "Chapter01.03.URLify\Chapter01.03.URLify.csproj", "{786DC35E-8142-4525-A2D8-5BC20BAB156D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.03.URLify", "Chapter01.03.URLify\Chapter01.03.URLify.csproj", "{786DC35E-8142-4525-A2D8-5BC20BAB156D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01.04.PalindromePermutation", "Chapter01.04.PalindromePermutation\Chapter01.04.PalindromePermutation.csproj", "{F9C4823A-8597-4A6C-A2A4-7F5605747F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.04.PalindromePermutation", "Chapter01.04.PalindromePermutation\Chapter01.04.PalindromePermutation.csproj", "{F9C4823A-8597-4A6C-A2A4-7F5605747F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01.05.OneArray", "Chapter01.05.OneArray\Chapter01.05.OneArray.csproj", "{DBC105E3-B725-457C-B056-FFD6B82A8407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.05.OneArray", "Chapter01.05.OneArray\Chapter01.05.OneArray.csproj", "{DBC105E3-B725-457C-B056-FFD6B82A8407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter01.06.StringCompression", "Chapter01.06.StringCompression\Chapter01.06.StringCompression.csproj", "{D49C367B-333A-42D9-84D9-FE030200310D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DBC105E3-B725-457C-B056-FFD6B82A8407}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBC105E3-B725-457C-B056-FFD6B82A8407}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBC105E3-B725-457C-B056-FFD6B82A8407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49C367B-333A-42D9-84D9-FE030200310D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49C367B-333A-42D9-84D9-FE030200310D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49C367B-333A-42D9-84D9-FE030200310D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49C367B-333A-42D9-84D9-FE030200310D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
