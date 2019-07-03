@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.05.OneArray", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter01.06.StringCompression", "Chapter01.06.StringCompression\Chapter01.06.StringCompression.csproj", "{D49C367B-333A-42D9-84D9-FE030200310D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02.01.RemoveDuplicateNode", "Chapter02.01.RemoveDuplicateNode\Chapter02.01.RemoveDuplicateNode.csproj", "{A2EF650C-5364-450E-9CE2-FF4EE5B25A3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.01.RemoveDuplicateNode", "Chapter02.01.RemoveDuplicateNode\Chapter02.01.RemoveDuplicateNode.csproj", "{A2EF650C-5364-450E-9CE2-FF4EE5B25A3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.02.KthToLastElement", "Chapter02.02.KthToLastElement\Chapter02.02.KthToLastElement.csproj", "{DC5C9CA4-9661-44BC-9BF1-2EFEBCED8403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02.03.DeleteMiddleNode", "Chapter02.03.DeleteMiddleNode\Chapter02.03.DeleteMiddleNode.csproj", "{20845D61-B220-43F3-BA9C-B8EF59AE432C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{A2EF650C-5364-450E-9CE2-FF4EE5B25A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2EF650C-5364-450E-9CE2-FF4EE5B25A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2EF650C-5364-450E-9CE2-FF4EE5B25A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5C9CA4-9661-44BC-9BF1-2EFEBCED8403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5C9CA4-9661-44BC-9BF1-2EFEBCED8403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5C9CA4-9661-44BC-9BF1-2EFEBCED8403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5C9CA4-9661-44BC-9BF1-2EFEBCED8403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20845D61-B220-43F3-BA9C-B8EF59AE432C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20845D61-B220-43F3-BA9C-B8EF59AE432C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20845D61-B220-43F3-BA9C-B8EF59AE432C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20845D61-B220-43F3-BA9C-B8EF59AE432C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
