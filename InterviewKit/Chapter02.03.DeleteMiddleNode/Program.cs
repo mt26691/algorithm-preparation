@@ -8,15 +8,21 @@ namespace Chapter02._03.DeleteMiddleNode
         static void Main(string[] args)
         {
             var list = new LinkedList();
-            for (int i = 0; i < 10; i++)
+            
+            for (int i = 10; i < 20; i++)
             {
                 list.AddLast(i);
             }
-
+            for (int i = 1; i < 10; i++)
+            {
+                list.AddFirst(i);
+            }
             var middleNode = GetMiddleNode(list.First, 4);
             Console.WriteLine(middleNode.Value);
             list.PrintNode();
             list.DeleteNode(middleNode);
+            list.PrintNode();
+            list.DeleteNode(list.First);
             list.PrintNode();
             Console.ReadLine();
         }
@@ -70,9 +76,8 @@ namespace Chapter02._03.DeleteMiddleNode
                     Last = node;
                 }
             }
-
-            if (First != null)
-            {
+            else
+            { 
                 First.Previous = node;
                 node.Next = First;
                 First = node;
@@ -92,8 +97,7 @@ namespace Chapter02._03.DeleteMiddleNode
                     First = node;
                 }
             }
-
-            if (Last != null)
+            else
             {
                 Last.Next = node;
                 node.Previous = Last;
@@ -105,23 +109,23 @@ namespace Chapter02._03.DeleteMiddleNode
 
         public void DeleteNode(LinkedListNode node)
         {
-            if(node == null)
+            if (node == null)
             {
                 return;
             }
             // if this is first node
-            if(node.Previous == null)
+            if (node.Previous == null)
             {
                 First = node.Next;
             }
-            
+
             // if this is last node
-            if(node.Next == null)
+            if (node.Next == null)
             {
                 Last = node.Previous;
             }
-           
-            if(node.Previous != null && node.Next != null)
+
+            if (node.Previous != null && node.Next != null)
             {
                 node.Previous.Next = node.Next;
                 node.Next.Previous = node.Previous;
