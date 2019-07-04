@@ -142,7 +142,12 @@ namespace Chapter02._04.PartitionLinkedList
 
             public void MergeAfter(LinkedList listToMerge)
             {
-                Last.Next = listToMerge.First;
+                if (listToMerge.Count > 0)
+                {
+                    Last.Next = listToMerge.First;
+                    listToMerge.First.Previous = Last;
+                    Count += listToMerge.Count;
+                }
             }
         }
 
