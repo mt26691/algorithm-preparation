@@ -19,9 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.01.RemoveDuplicat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.02.KthToLastElement", "Chapter02.02.KthToLastElement\Chapter02.02.KthToLastElement.csproj", "{DC5C9CA4-9661-44BC-9BF1-2EFEBCED8403}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02.03.DeleteMiddleNode", "Chapter02.03.DeleteMiddleNode\Chapter02.03.DeleteMiddleNode.csproj", "{20845D61-B220-43F3-BA9C-B8EF59AE432C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.03.DeleteMiddleNode", "Chapter02.03.DeleteMiddleNode\Chapter02.03.DeleteMiddleNode.csproj", "{20845D61-B220-43F3-BA9C-B8EF59AE432C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02.04.PartitionLinkedList", "Chapter02.04.PartitionLinkedList\Chapter02.04.PartitionLinkedList.csproj", "{76E9818A-7C1D-4F9A-942C-D146F75B8736}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.04.PartitionLinkedList", "Chapter02.04.PartitionLinkedList\Chapter02.04.PartitionLinkedList.csproj", "{76E9818A-7C1D-4F9A-942C-D146F75B8736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02.05.Sum2List", "Chapter02.05.Sum2List\Chapter02.05.Sum2List.csproj", "{ADBE5A04-5789-43B8-8CAB-3FBF7AC9EEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02.06.IsPalindrome", "Chapter02.06.IsPalindrome\Chapter02.06.IsPalindrome.csproj", "{9831C9D9-546F-4A72-A2CC-12894A7FBB20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02.07.IntersectList", "Chapter02.07.IntersectList\Chapter02.07.IntersectList.csproj", "{C6A69BF2-F460-498C-B848-70C4C25A66CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{76E9818A-7C1D-4F9A-942C-D146F75B8736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E9818A-7C1D-4F9A-942C-D146F75B8736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E9818A-7C1D-4F9A-942C-D146F75B8736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBE5A04-5789-43B8-8CAB-3FBF7AC9EEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBE5A04-5789-43B8-8CAB-3FBF7AC9EEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBE5A04-5789-43B8-8CAB-3FBF7AC9EEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBE5A04-5789-43B8-8CAB-3FBF7AC9EEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9831C9D9-546F-4A72-A2CC-12894A7FBB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9831C9D9-546F-4A72-A2CC-12894A7FBB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9831C9D9-546F-4A72-A2CC-12894A7FBB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9831C9D9-546F-4A72-A2CC-12894A7FBB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A69BF2-F460-498C-B848-70C4C25A66CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A69BF2-F460-498C-B848-70C4C25A66CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A69BF2-F460-498C-B848-70C4C25A66CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A69BF2-F460-498C-B848-70C4C25A66CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
