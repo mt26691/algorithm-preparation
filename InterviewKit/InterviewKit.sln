@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03.StackQueue.03.Sta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03.StackQueue.03.QueueByStack", "Chapter03.StackQueue.03.QueueByStack\Chapter03.StackQueue.03.QueueByStack.csproj", "{295DEF1E-05DE-41AB-B073-CB6806FC726E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03.StackQueue.05.SortStack", "Chapter03.StackQueue.05.SortStack\Chapter03.StackQueue.05.SortStack.csproj", "{8A4FA2B3-C809-4507-B589-7B235CE10B72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{295DEF1E-05DE-41AB-B073-CB6806FC726E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{295DEF1E-05DE-41AB-B073-CB6806FC726E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{295DEF1E-05DE-41AB-B073-CB6806FC726E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4FA2B3-C809-4507-B589-7B235CE10B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4FA2B3-C809-4507-B589-7B235CE10B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4FA2B3-C809-4507-B589-7B235CE10B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4FA2B3-C809-4507-B589-7B235CE10B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
