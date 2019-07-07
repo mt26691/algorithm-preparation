@@ -29,13 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.06.IsPalindrome",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter02.07.IntersectList", "Chapter02.07.IntersectList\Chapter02.07.IntersectList.csproj", "{C6A69BF2-F460-498C-B848-70C4C25A66CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03.StackQueue.02.StackWithMin", "Chapter03.StackQueue.02.StackWithMin\Chapter03.StackQueue.02.StackWithMin.csproj", "{A1D73D0F-8722-40BC-800A-B7B2611D4107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter03.StackQueue.02.StackWithMin", "Chapter03.StackQueue.02.StackWithMin\Chapter03.StackQueue.02.StackWithMin.csproj", "{A1D73D0F-8722-40BC-800A-B7B2611D4107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03.StackQueue.03.StackOfPlates", "Chapter03.StackQueue.03.StackOfPlates\Chapter03.StackQueue.03.StackOfPlates.csproj", "{96D67402-10CB-4F4C-AE60-65615893EA41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter03.StackQueue.03.StackOfPlates", "Chapter03.StackQueue.03.StackOfPlates\Chapter03.StackQueue.03.StackOfPlates.csproj", "{96D67402-10CB-4F4C-AE60-65615893EA41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03.StackQueue.03.QueueByStack", "Chapter03.StackQueue.03.QueueByStack\Chapter03.StackQueue.03.QueueByStack.csproj", "{295DEF1E-05DE-41AB-B073-CB6806FC726E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter03.StackQueue.03.QueueByStack", "Chapter03.StackQueue.03.QueueByStack\Chapter03.StackQueue.03.QueueByStack.csproj", "{295DEF1E-05DE-41AB-B073-CB6806FC726E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03.StackQueue.05.SortStack", "Chapter03.StackQueue.05.SortStack\Chapter03.StackQueue.05.SortStack.csproj", "{8A4FA2B3-C809-4507-B589-7B235CE10B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter03.StackQueue.05.SortStack", "Chapter03.StackQueue.05.SortStack\Chapter03.StackQueue.05.SortStack.csproj", "{8A4FA2B3-C809-4507-B589-7B235CE10B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter07.01.OOP.DeckOfCard", "Chapter07.01.OOP.DeckOfCard\Chapter07.01.OOP.DeckOfCard.csproj", "{35D7F465-28A6-4662-9C90-91F46F64D4AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{8A4FA2B3-C809-4507-B589-7B235CE10B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A4FA2B3-C809-4507-B589-7B235CE10B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A4FA2B3-C809-4507-B589-7B235CE10B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D7F465-28A6-4662-9C90-91F46F64D4AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D7F465-28A6-4662-9C90-91F46F64D4AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D7F465-28A6-4662-9C90-91F46F64D4AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D7F465-28A6-4662-9C90-91F46F64D4AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
