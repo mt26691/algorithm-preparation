@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BinaryTree
 {
     public class BinaryTree<T> where T : IComparable<T>
     {
-        public BinaryTreeNode<T> Root { get; set; }
+        public BinaryTreeNode<T> Root { get; set; } = null;
 
         public BinaryTree(T rootValue)
         {
@@ -43,5 +41,4 @@ namespace BinaryTree
             }
         }
     }
-
 }
