@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.04.GetHeight", "BinaryTree.04.GetHeight\BinaryTree.04.GetHeight.csproj", "{8AD05841-7F6F-4A2E-BFFB-4FAC369B279F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.05.DeleteGivenTree", "BinaryTree.05.DeleteGivenTree\BinaryTree.05.DeleteGivenTree.csproj", "{D7A0901F-7CBE-4198-994A-D96A4335F83D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8AD05841-7F6F-4A2E-BFFB-4FAC369B279F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AD05841-7F6F-4A2E-BFFB-4FAC369B279F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AD05841-7F6F-4A2E-BFFB-4FAC369B279F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A0901F-7CBE-4198-994A-D96A4335F83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A0901F-7CBE-4198-994A-D96A4335F83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A0901F-7CBE-4198-994A-D96A4335F83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A0901F-7CBE-4198-994A-D96A4335F83D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
