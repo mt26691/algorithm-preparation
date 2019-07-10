@@ -6,4 +6,8 @@
     <RootNamespace>BinaryTreee._03.Check2TreeIsIdentical</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BinaryTree\BinaryTree.csproj" />
+  </ItemGroup>
+
 </Project>
