@@ -37,7 +37,12 @@ namespace BinaryTreee._03.Check2TreeIsIdentical
                 return true;
             }
 
-            return (node1 != null && node2 != null && node1.Value == node2.Value)
+            if(node1 == null || node2 == null)
+            {
+                return false;
+            }
+
+            return node1.Value == node2.Value
                 && IsIdentical(node1.Left, node2.Left) && IsIdentical(node1.Right, node2.Right);
         }
     }
