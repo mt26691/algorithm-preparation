@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BinaryTree
 {
@@ -38,6 +39,35 @@ namespace BinaryTree
                 PostOrderTraverse(node.Left);
                 PostOrderTraverse(node.Right);
                 Console.WriteLine(node.Value);
+            }
+        }
+
+        public void LevelOrderTraversal()
+        {
+            var root = Root;
+            if(root == null)
+            {
+                return;
+            }
+
+            var queue = new Queue<BinaryTreeNode<T>>();
+            queue.Enqueue(Root);
+
+            while(queue.Count>0)
+            {
+                var currentNode = queue.Dequeue();
+                Console.WriteLine($"Travel to {currentNode.Value}");
+
+                if(currentNode.Left != null)
+                {
+                    queue.Enqueue(currentNode.Left);
+                }
+
+                if (currentNode.Right != null)
+                {
+                    queue.Enqueue(currentNode.Right);
+                }
+
             }
         }
     }

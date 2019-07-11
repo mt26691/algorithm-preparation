@@ -1,25 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.01.Introduction", "BinaryTree.01.Introduction\BinaryTree.01.Introduction.csproj", "{9F920497-13C0-4844-B4FD-6ACEC7BC6124}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.02.PreOrderTraversal", "BinaryTree.02.PreOrderTraversal\BinaryTree.02.PreOrderTraversal.csproj", "{101DBBA6-CCED-4862-9B7B-CF22DCDEFD93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.03.Check2TreeIsIdentical", "BinaryTreee.03.Check2TreeIsIdentical\BinaryTree.03.Check2TreeIsIdentical.csproj", "{0C028E4A-BBF4-4F9C-B6C5-CC24326836E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.03.Check2TreeIsIdentical", "BinaryTreee.03.Check2TreeIsIdentical\BinaryTree.03.Check2TreeIsIdentical.csproj", "{0C028E4A-BBF4-4F9C-B6C5-CC24326836E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{6A3B0C1F-31AD-4AA3-B1DE-9A71AC5B2A6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{6A3B0C1F-31AD-4AA3-B1DE-9A71AC5B2A6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.04.GetHeight", "BinaryTree.04.GetHeight\BinaryTree.04.GetHeight.csproj", "{8AD05841-7F6F-4A2E-BFFB-4FAC369B279F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.04.GetHeight", "BinaryTree.04.GetHeight\BinaryTree.04.GetHeight.csproj", "{8AD05841-7F6F-4A2E-BFFB-4FAC369B279F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.05.DeleteGivenTree", "BinaryTree.05.DeleteGivenTree\BinaryTree.05.DeleteGivenTree.csproj", "{D7A0901F-7CBE-4198-994A-D96A4335F83D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.05.DeleteGivenTree", "BinaryTree.05.DeleteGivenTree\BinaryTree.05.DeleteGivenTree.csproj", "{D7A0901F-7CBE-4198-994A-D96A4335F83D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.06.InorderTravesal", "BinaryTree.06.InorderTravesal\BinaryTree.06.InorderTravesal.csproj", "{CCDAE36A-B6F2-4F45-91EC-3316805523E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.06.InorderTravesal", "BinaryTree.06.InorderTravesal\BinaryTree.06.InorderTravesal.csproj", "{CCDAE36A-B6F2-4F45-91EC-3316805523E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.07.PreOrderTravesal", "BinaryTree.07.PreOrderTravesal\BinaryTree.07.PreOrderTravesal.csproj", "{52A79D06-39D2-436B-8D24-68FD2E1BC0FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.07.PreOrderTravesal", "BinaryTree.07.PreOrderTravesal\BinaryTree.07.PreOrderTravesal.csproj", "{52A79D06-39D2-436B-8D24-68FD2E1BC0FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.08.PostOrderTravesal", "BinaryTree.08.PostOrderTravesal\BinaryTree.08.PostOrderTravesal.csproj", "{ECCC30C1-E275-466C-A9B2-37D8A1FA856D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.08.PostOrderTravesal", "BinaryTree.08.PostOrderTravesal\BinaryTree.08.PostOrderTravesal.csproj", "{ECCC30C1-E275-466C-A9B2-37D8A1FA856D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.09.LevelOrderTravesal", "BinaryTree.09.LevelOrderTravesal\BinaryTree.09.LevelOrderTravesal.csproj", "{AA070445-2F62-4364-B157-29081562B478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{ECCC30C1-E275-466C-A9B2-37D8A1FA856D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECCC30C1-E275-466C-A9B2-37D8A1FA856D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECCC30C1-E275-466C-A9B2-37D8A1FA856D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA070445-2F62-4364-B157-29081562B478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA070445-2F62-4364-B157-29081562B478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA070445-2F62-4364-B157-29081562B478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA070445-2F62-4364-B157-29081562B478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
