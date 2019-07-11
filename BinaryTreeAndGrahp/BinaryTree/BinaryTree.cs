@@ -71,6 +71,9 @@ namespace BinaryTree
             }
         }
 
+        /// <summary>
+        /// http://www.techiedelight.com/level-order-traversal-binary-tree/
+        /// </summary>
         public void SpiralOrderTraversal()
         {
             var root = Root;
@@ -101,7 +104,7 @@ namespace BinaryTree
                     {
                         var data = queue.Dequeue();
                         Console.WriteLine($"Travel to {data.Value}");
-                        if (data.Left != null) 
+                        if (data.Left != null)
                         {
                             stack.Push(data.Left);
                             tempQueue.Enqueue(data.Left);
@@ -122,7 +125,7 @@ namespace BinaryTree
                         Console.WriteLine($"Travel to {data.Value}");
                         var queueData = tempQueue.Dequeue();
 
-                        if (queueData.Left != null) 
+                        if (queueData.Left != null)
                         {
                             queue.Enqueue(queueData.Left);
                         }
@@ -135,6 +138,43 @@ namespace BinaryTree
                 }
 
                 fromLeftToRight = !fromLeftToRight;
+            }
+        }
+
+        /// <summary>
+        /// https://www.techiedelight.com/reverse-level-order-traversal-binary-tree/
+        /// </summary>
+        public void ReverseLevelTraversal()
+        {
+            if (Root == null)
+            {
+                return;
+            }
+
+            var stack = new Stack<BinaryTreeNode<T>>();
+
+            var pollingQueue = new Queue<BinaryTreeNode<T>>();
+            var queue = new Queue<BinaryTreeNode<T>>();
+            queue.Enqueue(Root);
+
+            while (queue.Count > 0)
+            {
+                var currentNode = queue.Dequeue();
+                stack.Push(currentNode);
+                if (currentNode.Right != null)
+                {
+                    queue.Enqueue(currentNode.Right);
+                }
+                if (currentNode.Left != null)
+                {
+                    queue.Enqueue(currentNode.Left);
+                }
+            }
+
+            while (stack.Count > 0)
+            {
+                var node = stack.Pop();
+                Console.WriteLine($"Revere order travelal {node.Value}");
             }
         }
     }

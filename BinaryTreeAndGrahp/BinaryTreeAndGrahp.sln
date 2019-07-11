@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.09.LevelOrderTra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.10.SpirialOrderTraversal", "BinaryTree.10.SpirialOrderTraversal\BinaryTree.10.SpirialOrderTraversal.csproj", "{7E64C186-15E9-4E9F-95CB-7B230D4926B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.11.ReverseLevelOrderTree", "BinaryTree.11.ReverseLevelOrderTree\BinaryTree.11.ReverseLevelOrderTree.csproj", "{EEAE0871-A6F5-49B1-834B-AEF0EACD4F21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7E64C186-15E9-4E9F-95CB-7B230D4926B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E64C186-15E9-4E9F-95CB-7B230D4926B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E64C186-15E9-4E9F-95CB-7B230D4926B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAE0871-A6F5-49B1-834B-AEF0EACD4F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAE0871-A6F5-49B1-834B-AEF0EACD4F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAE0871-A6F5-49B1-834B-AEF0EACD4F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAE0871-A6F5-49B1-834B-AEF0EACD4F21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
