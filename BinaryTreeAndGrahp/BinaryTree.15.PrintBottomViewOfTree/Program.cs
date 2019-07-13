@@ -68,7 +68,7 @@ namespace BinaryTree._15.PrintBottomViewOfTree
 
             if (!map.ContainsKey(horDist))
             {
-                map.Add(level, new Pair<T>(level, root));
+                map.Add(horDist, new Pair<T>(level, root));
             }
             else if(map.ContainsKey(horDist))
             {
