@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace BinaryTree._19.CheckCousin
 {
+    /// <summary>
+    /// https://www.techiedelight.com/determine-two-nodes-are-cousins/
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -25,9 +28,23 @@ namespace BinaryTree._19.CheckCousin
 
             CheckCousin(binayTree.Root, binayTree.Root.Right.Left.Left, binayTree.Root.Right.Left.Right);
             CheckCousin(binayTree.Root, binayTree.Root.Right.Left.Left, binayTree.Root.Right.Right);
+            CheckCousin(binayTree.Root, binayTree.Root.Left.Left, binayTree.Root.Right.Right);
             Console.ReadLine();
         }
 
+        public class Pair<T> where T : IComparable<T>
+        {
+            public BinaryTreeNode<T> Parent { get; set; }
+
+            public BinaryTreeNode<T> Node { get; set; }
+
+            public Pair(BinaryTreeNode<T> parent, BinaryTreeNode<T> node)
+            {
+                Parent = parent;
+                Node = node;
+            }
+
+        }
 
 
         public static void CheckCousin<T>(BinaryTreeNode<T> rootNode, BinaryTreeNode<T> firstNode, BinaryTreeNode<T> secondNode) where T : IComparable<T>
@@ -37,8 +54,8 @@ namespace BinaryTree._19.CheckCousin
                 return;
             }
 
-            var queue = new Queue<BinaryTreeNode<T>>();
-            queue.Enqueue(rootNode);
+            var queue = new Queue<Pair<T>>();
+            queue.Enqueue(new Pair<T>(null, rootNode));
 
             int level = 0;
 
@@ -50,29 +67,32 @@ namespace BinaryTree._19.CheckCousin
                 {
                     var nodePool = queue.Dequeue();
 
-                    if (nodePool == firstNode || firstNode == secondNode)
+                    if (nodePool.Node == firstNode || nodePool.Node == secondNode)
                     {
-                        while (queue.Count > 0)
+                        while (queueCount-- > 0)
                         {
                             var nextNode = queue.Dequeue();
-                            if (nextNode == firstNode || nextNode == secondNode)
+                            if (nextNode.Node == firstNode || nextNode.Node == secondNode)
                             {
-                                Console.WriteLine("They are counsin");
-                                return;
+                                if (nextNode.Parent != nodePool.Parent)
+                                {
+                                    Console.WriteLine("They are counsin");
+                                    return;
+                                }
                             }
                         }
                         Console.WriteLine("They are not counsin");
                         return;
                     }
 
-                    if (nodePool.Left != null)
+                    if (nodePool.Node.Left != null)
                     {
-                        queue.Enqueue(nodePool.Left);
+                        queue.Enqueue(new Pair<T>(nodePool.Node, nodePool.Node.Left));
                     }
 
-                    if (nodePool.Right != null)
+                    if (nodePool.Node.Right != null)
                     {
-                        queue.Enqueue(nodePool.Right);
+                        queue.Enqueue(new Pair<T>(nodePool.Node, nodePool.Node.Right));
                     }
                 }
             }
