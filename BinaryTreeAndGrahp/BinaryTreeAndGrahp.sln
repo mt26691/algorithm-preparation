@@ -33,17 +33,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.13.PrintLeftView
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.14.PrintRightViewOfTree", "BinaryTree.14.PrintRightViewOfTree\BinaryTree.14.PrintRightViewOfTree.csproj", "{103969E8-0F7C-4D75-9BA2-72FEF02FBDAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.15.PrintBottomViewOfTree", "BinaryTree.15.PrintBottomViewOfTree\BinaryTree.15.PrintBottomViewOfTree.csproj", "{D79F0118-BDC1-4620-923F-88B89F712847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.15.PrintBottomViewOfTree", "BinaryTree.15.PrintBottomViewOfTree\BinaryTree.15.PrintBottomViewOfTree.csproj", "{D79F0118-BDC1-4620-923F-88B89F712847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.16.PrintTopViewOfTree", "BinaryTree.16.PrintTopViewOfTree\BinaryTree.16.PrintTopViewOfTree.csproj", "{B632A484-2390-45F9-A2BC-82F89D6C9C21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.16.PrintTopViewOfTree", "BinaryTree.16.PrintTopViewOfTree\BinaryTree.16.PrintTopViewOfTree.csproj", "{B632A484-2390-45F9-A2BC-82F89D6C9C21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.17.FindNextNodeSameLevel", "BinaryTree.17.FindNextNodeSameLevel\BinaryTree.17.FindNextNodeSameLevel.csproj", "{61D6BA13-C049-4AAA-99ED-250CDD9E112E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.17.FindNextNodeSameLevel", "BinaryTree.17.FindNextNodeSameLevel\BinaryTree.17.FindNextNodeSameLevel.csproj", "{61D6BA13-C049-4AAA-99ED-250CDD9E112E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.18.CheckCompleteTreeOrNot", "BinaryTree.18.CheckCompleteTreeOrNot\BinaryTree.18.CheckCompleteTreeOrNot.csproj", "{D4922D8E-00BE-4F5F-8410-08EDE6C09D3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.18.CheckCompleteTreeOrNot", "BinaryTree.18.CheckCompleteTreeOrNot\BinaryTree.18.CheckCompleteTreeOrNot.csproj", "{D4922D8E-00BE-4F5F-8410-08EDE6C09D3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.19.CheckCousin", "BinaryTree.19.CheckCousin\BinaryTree.19.CheckCousin.csproj", "{0A6B083D-CFD6-4512-8602-B42CCF1FF430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.19.CheckCousin", "BinaryTree.19.CheckCousin\BinaryTree.19.CheckCousin.csproj", "{0A6B083D-CFD6-4512-8602-B42CCF1FF430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinayTree.20.FindCousins", "BinayTree.20.FindCousins\BinayTree.20.FindCousins.csproj", "{69BBE5DF-7D57-4356-8CDE-D29D9E4E3020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.20.FindCousins", "BinayTree.20.FindCousins\BinaryTree.20.FindCousins.csproj", "{69BBE5DF-7D57-4356-8CDE-D29D9E4E3020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.21.ConvertTreeToSumTree", "BinaryTree.21.ConvertTreeToSumTree\BinaryTree.21.ConvertTreeToSumTree.csproj", "{24CD4A25-0E12-443C-8900-8DC35725FFD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{69BBE5DF-7D57-4356-8CDE-D29D9E4E3020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69BBE5DF-7D57-4356-8CDE-D29D9E4E3020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69BBE5DF-7D57-4356-8CDE-D29D9E4E3020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CD4A25-0E12-443C-8900-8DC35725FFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CD4A25-0E12-443C-8900-8DC35725FFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CD4A25-0E12-443C-8900-8DC35725FFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CD4A25-0E12-443C-8900-8DC35725FFD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
