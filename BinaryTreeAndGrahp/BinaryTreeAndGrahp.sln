@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.31.FindDistanceB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.32.FindVerticalSum", "BinaryTree.32.FindVerticalSum\BinaryTree.32.FindVerticalSum.csproj", "{69577368-1331-4DA9-A774-6CF0CAF7F7A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.33.VerticalTravesal", "BinaryTree.33.VerticalTravesal\BinaryTree.33.VerticalTravesal.csproj", "{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{69577368-1331-4DA9-A774-6CF0CAF7F7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69577368-1331-4DA9-A774-6CF0CAF7F7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69577368-1331-4DA9-A774-6CF0CAF7F7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
