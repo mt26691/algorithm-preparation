@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.28.FindLowerComm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.29.PrintPathsFromRootToBotoom", "BinaryTree.29.PrintPathsFromRootToBotoom\BinaryTree.29.PrintPathsFromRootToBotoom.csproj", "{72941BB7-608A-4F3E-A1D1-E0EB459516BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.30.FindAncestorNode", "BinaryTree.30.FindAncestorNode\BinaryTree.30.FindAncestorNode.csproj", "{16AF85B0-888C-4DE4-B397-3777E9B41142}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{72941BB7-608A-4F3E-A1D1-E0EB459516BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72941BB7-608A-4F3E-A1D1-E0EB459516BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72941BB7-608A-4F3E-A1D1-E0EB459516BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AF85B0-888C-4DE4-B397-3777E9B41142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AF85B0-888C-4DE4-B397-3777E9B41142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AF85B0-888C-4DE4-B397-3777E9B41142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AF85B0-888C-4DE4-B397-3777E9B41142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
