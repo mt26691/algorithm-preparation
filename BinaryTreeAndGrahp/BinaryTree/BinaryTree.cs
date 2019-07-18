@@ -184,5 +184,27 @@ namespace BinaryTree
                 Console.WriteLine($"Revere order travelal {node.Value}");
             }
         }
+
+        /// <summary>
+        /// This function is used for checking the given node is presented in the tree
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="root"></param>
+        /// <param name="checkNode"></param>
+        /// <returns></returns>
+        public bool IsPresentInTree(BinaryTreeNode<T> root, BinaryTreeNode<T> checkNode)
+        {
+            if (root == null)
+            {
+                return false;
+            }
+
+            if (root == checkNode)
+            {
+                return true;
+            }
+
+            return IsPresentInTree(root.Left, checkNode) || IsPresentInTree(root.Right, checkNode);
+        }
     }
 }
