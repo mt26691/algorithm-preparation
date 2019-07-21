@@ -81,6 +81,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.37.TruncateToFul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.38.TruncateBinaryTree", "BinaryTree.38.TruncateBinaryTree\BinaryTree.38.TruncateBinaryTree.csproj", "{5D1A8944-9632-4A8F-8E88-3769A7DF8766}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.39.FindMaxPath", "BinaryTree.39.FindMaxPath\BinaryTree.39.FindMaxPath.csproj", "{F4F3ED8E-9450-46D3-AF7A-ACDECB7A97D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.40.CheckIfGivenTreeIsBalanceHeightOrNot", "BinaryTree.40.CheckIfGivenTreeIsBalanceHeightOrNot\BinaryTree.40.CheckIfGivenTreeIsBalanceHeightOrNot.csproj", "{2691696B-A4AB-411A-9A4B-B6A33DA01E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +247,14 @@ Global
 		{5D1A8944-9632-4A8F-8E88-3769A7DF8766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D1A8944-9632-4A8F-8E88-3769A7DF8766}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D1A8944-9632-4A8F-8E88-3769A7DF8766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F3ED8E-9450-46D3-AF7A-ACDECB7A97D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F3ED8E-9450-46D3-AF7A-ACDECB7A97D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F3ED8E-9450-46D3-AF7A-ACDECB7A97D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F3ED8E-9450-46D3-AF7A-ACDECB7A97D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2691696B-A4AB-411A-9A4B-B6A33DA01E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2691696B-A4AB-411A-9A4B-B6A33DA01E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2691696B-A4AB-411A-9A4B-B6A33DA01E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2691696B-A4AB-411A-9A4B-B6A33DA01E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
