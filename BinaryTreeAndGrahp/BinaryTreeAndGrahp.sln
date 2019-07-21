@@ -59,17 +59,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.26.ConvertToMirr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.27.DetermineIfBinaryTreeCanbeConverted", "BinaryTree.27.DetermineIfBinaryTreeCanbeConverted\BinaryTree.27.DetermineIfBinaryTreeCanbeConverted.csproj", "{0A60CB13-36F0-47A1-83A3-F0255806A97C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.28.FindLowerCommonAncestor", "BinaryTree.28.FindLowerCommonAncestor\BinaryTree.28.FindLowerCommonAncestor.csproj", "{BC65F9AF-97D9-4DBC-A299-FB3CCF371342}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.28.FindLowerCommonAncestor", "BinaryTree.28.FindLowerCommonAncestor\BinaryTree.28.FindLowerCommonAncestor.csproj", "{BC65F9AF-97D9-4DBC-A299-FB3CCF371342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.29.PrintPathsFromRootToBotoom", "BinaryTree.29.PrintPathsFromRootToBotoom\BinaryTree.29.PrintPathsFromRootToBotoom.csproj", "{72941BB7-608A-4F3E-A1D1-E0EB459516BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.29.PrintPathsFromRootToBotoom", "BinaryTree.29.PrintPathsFromRootToBotoom\BinaryTree.29.PrintPathsFromRootToBotoom.csproj", "{72941BB7-608A-4F3E-A1D1-E0EB459516BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.30.FindAncestorNode", "BinaryTree.30.FindAncestorNode\BinaryTree.30.FindAncestorNode.csproj", "{16AF85B0-888C-4DE4-B397-3777E9B41142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.30.FindAncestorNode", "BinaryTree.30.FindAncestorNode\BinaryTree.30.FindAncestorNode.csproj", "{16AF85B0-888C-4DE4-B397-3777E9B41142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.31.FindDistanceBetweenNode", "BinaryTree.31.FindDistanceBetweenNode\BinaryTree.31.FindDistanceBetweenNode.csproj", "{FE33BE41-DA82-4645-B55C-C2B8EB570A37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.31.FindDistanceBetweenNode", "BinaryTree.31.FindDistanceBetweenNode\BinaryTree.31.FindDistanceBetweenNode.csproj", "{FE33BE41-DA82-4645-B55C-C2B8EB570A37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.32.FindVerticalSum", "BinaryTree.32.FindVerticalSum\BinaryTree.32.FindVerticalSum.csproj", "{69577368-1331-4DA9-A774-6CF0CAF7F7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.32.FindVerticalSum", "BinaryTree.32.FindVerticalSum\BinaryTree.32.FindVerticalSum.csproj", "{69577368-1331-4DA9-A774-6CF0CAF7F7A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.33.VerticalTravesal", "BinaryTree.33.VerticalTravesal\BinaryTree.33.VerticalTravesal.csproj", "{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.33.VerticalTravesal", "BinaryTree.33.VerticalTravesal\BinaryTree.33.VerticalTravesal.csproj", "{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.34.FindDiagonalSum", "BinaryTree.34.FindDiagonalSum\BinaryTree.34.FindDiagonalSum.csproj", "{2128D14D-053B-457D-9600-0093CBD67CC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B3771C8-67FA-41F4-BD70-5D0BE5D2B2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2128D14D-053B-457D-9600-0093CBD67CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2128D14D-053B-457D-9600-0093CBD67CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2128D14D-053B-457D-9600-0093CBD67CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2128D14D-053B-457D-9600-0093CBD67CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
