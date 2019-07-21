@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.34.FindDiagonalS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.35.PrintDiagonalTraversal", "BinaryTree.35.PrintDiagonalTraversal\BinaryTree.35.PrintDiagonalTraversal.csproj", "{C61D0F2F-D24C-47CF-BBE0-2F028E6D92EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.36.PrintCornerNodes", "BinaryTree.36.PrintCornerNodes\BinaryTree.36.PrintCornerNodes.csproj", "{89B8D83F-F0BD-45E5-9F8D-57CA49B23C95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{C61D0F2F-D24C-47CF-BBE0-2F028E6D92EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61D0F2F-D24C-47CF-BBE0-2F028E6D92EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61D0F2F-D24C-47CF-BBE0-2F028E6D92EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B8D83F-F0BD-45E5-9F8D-57CA49B23C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B8D83F-F0BD-45E5-9F8D-57CA49B23C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B8D83F-F0BD-45E5-9F8D-57CA49B23C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B8D83F-F0BD-45E5-9F8D-57CA49B23C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
