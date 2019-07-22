@@ -7,6 +7,10 @@ namespace BinaryTree
     {
         public BinaryTreeNode<T> Root { get; set; } = null;
 
+        public BinaryTree()
+        {
+
+        }
         public BinaryTree(T rootValue)
         {
             Root = new BinaryTreeNode<T>(rootValue);

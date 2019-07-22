@@ -22,5 +22,6 @@ namespace BinaryTree
             Left = left;
             Right = right;
         }
+
     }
 }
