@@ -59,47 +59,5 @@ namespace BinaryTree._40.CheckIfGivenTreeIsBalanceHeightOrNot
 
             return Math.Max(leftHeight, rightHeight) + 1;
         }
-
-        public static void FindMaxPath(BinaryTreeNode<int> rootNode)
-        {
-            if (rootNode == null)
-            {
-                return;
-            }
-            var sum = RootToLeaftSum(rootNode);
-            PrintPath(rootNode, sum);
-        }
-
-        public static bool PrintPath(BinaryTreeNode<int> rootNode, int sum)
-        {
-            if (sum == 0)
-            {
-                return true;
-            }
-            if (rootNode == null)
-            {
-                return false;
-            }
-
-            var left = PrintPath(rootNode.Left, sum - rootNode.Value);
-            var right = PrintPath(rootNode.Right, sum - rootNode.Value);
-
-            if (left || right)
-            {
-                Console.WriteLine($"Path {rootNode.Value}");
-            }
-            return left || right;
-        }
-        public static int RootToLeaftSum(BinaryTreeNode<int> root)
-        {
-            if (root == null)
-            {
-                return 0;
-            }
-            var left = RootToLeaftSum(root.Left);
-            var right = RootToLeaftSum(root.Right);
-
-            return (left > right ? left : right) + root.Value;
-        }
     }
 }
