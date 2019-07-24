@@ -87,7 +87,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.40.CheckIfGivenT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.41.SinkNodeToBottom", "BinaryTree.41.SinkNodeToBottom\BinaryTree.41.SinkNodeToBottom.csproj", "{4D79BFFA-F6EB-40A1-9E88-8FFBEB6AB617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.42.DetermineGivenTreeIsBSTOrNot", "BinaryTree.42.DetermineGivenTreeIsBSTOrNot\BinaryTree.42.DetermineGivenTreeIsBSTOrNot.csproj", "{BB706F76-5026-47C0-9CA0-35AD9EA9AD7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.42.DetermineGivenTreeIsBSTOrNot", "BinaryTree.42.DetermineGivenTreeIsBSTOrNot\BinaryTree.42.DetermineGivenTreeIsBSTOrNot.csproj", "{BB706F76-5026-47C0-9CA0-35AD9EA9AD7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.43.ConvertTreeToBinarySearchTree", "BinaryTree.43.ConvertTreeToBinarySearchTree\BinaryTree.43.ConvertTreeToBinarySearchTree.csproj", "{23532995-99DE-4C0B-9DE1-6EF707712961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.44.AVLTreeDemo", "BinaryTree.44.AVLTreeDemo\BinaryTree.44.AVLTreeDemo.csproj", "{CA1B4553-9CA9-4098-B56A-41A59DFA1E0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +271,14 @@ Global
 		{BB706F76-5026-47C0-9CA0-35AD9EA9AD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB706F76-5026-47C0-9CA0-35AD9EA9AD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB706F76-5026-47C0-9CA0-35AD9EA9AD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23532995-99DE-4C0B-9DE1-6EF707712961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23532995-99DE-4C0B-9DE1-6EF707712961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23532995-99DE-4C0B-9DE1-6EF707712961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23532995-99DE-4C0B-9DE1-6EF707712961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1B4553-9CA9-4098-B56A-41A59DFA1E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1B4553-9CA9-4098-B56A-41A59DFA1E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1B4553-9CA9-4098-B56A-41A59DFA1E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1B4553-9CA9-4098-B56A-41A59DFA1E0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

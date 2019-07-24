@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BinaryTree
 {
@@ -23,5 +21,6 @@ namespace BinaryTree
             Right = right;
         }
 
+        
     }
 }
