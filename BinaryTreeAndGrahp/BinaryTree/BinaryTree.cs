@@ -46,40 +46,18 @@ namespace BinaryTree
             }
         }
 
-        public void LevelOrderTraversal()
+        public void LevelOrderTraversal(BinaryTreeNode<T> root = null)
         {
-            var root = Root;
+            if (root == null)
+            {
+                root = Root;
+            }
             if (root == null)
             {
                 return;
             }
 
-            var queue = new Queue<BinaryTreeNode<T>>();
-            queue.Enqueue(Root);
-            int level = 1;
-            while (queue.Count > 0)
-            {
-                var queueCount = queue.Count;
-                Console.WriteLine($"Current level = {level}");
-                level++;
-                while (queueCount-- > 0)
-                {
-                    var currentNode = queue.Dequeue();
-                    Console.Write($"{currentNode.Value}  ");
-
-                    if (currentNode.Left != null)
-                    {
-                        queue.Enqueue(currentNode.Left);
-                    }
-
-                    if (currentNode.Right != null)
-                    {
-                        queue.Enqueue(currentNode.Right);
-                    }
-
-                }
-                Console.WriteLine("");
-            }
+            root.LevelOrderTraversal();
         }
 
         /// <summary>
