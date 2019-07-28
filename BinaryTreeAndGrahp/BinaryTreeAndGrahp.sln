@@ -103,6 +103,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.48.CountSubTree"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild", "BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild\BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild.csproj", "{8E84CBD9-59F9-4D12-9680-82F08F4EE462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.50.SearchInBinaryTree", "BinaryTree.50.SearchInBinaryTree\BinaryTree.50.SearchInBinaryTree.csproj", "{4FDF5DA3-F720-4227-8E16-A04C1175E8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.51.CreateBinaryTreeFromGivenTree", "BinaryTree.51.CreateBinaryTreeFromGivenTree\BinaryTree.51.CreateBinaryTreeFromGivenTree.csproj", "{FF4DD4F2-E5D3-4383-8200-DED9C73767E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +313,14 @@ Global
 		{8E84CBD9-59F9-4D12-9680-82F08F4EE462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E84CBD9-59F9-4D12-9680-82F08F4EE462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E84CBD9-59F9-4D12-9680-82F08F4EE462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDF5DA3-F720-4227-8E16-A04C1175E8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDF5DA3-F720-4227-8E16-A04C1175E8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDF5DA3-F720-4227-8E16-A04C1175E8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDF5DA3-F720-4227-8E16-A04C1175E8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4DD4F2-E5D3-4383-8200-DED9C73767E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4DD4F2-E5D3-4383-8200-DED9C73767E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4DD4F2-E5D3-4383-8200-DED9C73767E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4DD4F2-E5D3-4383-8200-DED9C73767E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
