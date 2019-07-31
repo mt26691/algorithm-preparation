@@ -93,21 +93,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.43.ConvertTreeTo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.44.AVLTreeDemo", "BinaryTree.44.AVLTreeDemo\BinaryTree.44.AVLTreeDemo.csproj", "{CA1B4553-9CA9-4098-B56A-41A59DFA1E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.45.InvertBinaryTree", "BinaryTree.45.InvertBinaryTree\BinaryTree.45.InvertBinaryTree.csproj", "{FDBB314D-E9D4-486C-8274-77FBE6C44469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.45.InvertBinaryTree", "BinaryTree.45.InvertBinaryTree\BinaryTree.45.InvertBinaryTree.csproj", "{FDBB314D-E9D4-486C-8274-77FBE6C44469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.46.FindMaxWidth", "BinaryTree.46.FindMaxWidth\BinaryTree.46.FindMaxWidth.csproj", "{8A599BCC-8C90-4457-B679-D751CECBEB7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.46.FindMaxWidth", "BinaryTree.46.FindMaxWidth\BinaryTree.46.FindMaxWidth.csproj", "{8A599BCC-8C90-4457-B679-D751CECBEB7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.47.BuildFromGivenPattern", "BinaryTree.47.BuildFromGivenPattern\BinaryTree.47.BuildFromGivenPattern.csproj", "{427CA818-4846-4F96-935F-A2A2D95F445B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.47.BuildFromGivenPattern", "BinaryTree.47.BuildFromGivenPattern\BinaryTree.47.BuildFromGivenPattern.csproj", "{427CA818-4846-4F96-935F-A2A2D95F445B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.48.CountSubTree", "BinaryTree.48.CountSubTree\BinaryTree.48.CountSubTree.csproj", "{B78065F3-C311-4C81-BB76-88A09AD7FEC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.48.CountSubTree", "BinaryTree.48.CountSubTree\BinaryTree.48.CountSubTree.csproj", "{B78065F3-C311-4C81-BB76-88A09AD7FEC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild", "BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild\BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild.csproj", "{8E84CBD9-59F9-4D12-9680-82F08F4EE462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild", "BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild\BinaryTree.49.FindMaxDiffBetweenDecentdantAndChild.csproj", "{8E84CBD9-59F9-4D12-9680-82F08F4EE462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.50.SearchInBinaryTree", "BinaryTree.50.SearchInBinaryTree\BinaryTree.50.SearchInBinaryTree.csproj", "{4FDF5DA3-F720-4227-8E16-A04C1175E8C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.50.SearchInBinaryTree", "BinaryTree.50.SearchInBinaryTree\BinaryTree.50.SearchInBinaryTree.csproj", "{4FDF5DA3-F720-4227-8E16-A04C1175E8C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.51.CreateBinaryTreeFromGivenTree", "BinaryTree.51.CreateBinaryTreeFromGivenTree\BinaryTree.51.CreateBinaryTreeFromGivenTree.csproj", "{FF4DD4F2-E5D3-4383-8200-DED9C73767E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.51.CreateBinaryTreeFromGivenTree", "BinaryTree.51.CreateBinaryTreeFromGivenTree\BinaryTree.51.CreateBinaryTreeFromGivenTree.csproj", "{FF4DD4F2-E5D3-4383-8200-DED9C73767E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.52.DeleteANode", "BinaryTree.52.DeleteANode\BinaryTree.52.DeleteANode.csproj", "{9985D7FB-82B2-4EB0-AA8A-339DC7046C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree.52.DeleteANode", "BinaryTree.52.DeleteANode\BinaryTree.52.DeleteANode.csproj", "{9985D7FB-82B2-4EB0-AA8A-339DC7046C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.53.FindInOrderPre", "BinaryTree.51.FindInOrderPre\BinaryTree.53.FindInOrderPre.csproj", "{7997FFAB-B3FE-4C71-9A9A-C9309954A374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree.54.FindLCAInBinarySearchTree", "BinaryTree.54.FindLCAInBinarySearchTree\BinaryTree.54.FindLCAInBinarySearchTree.csproj", "{3B5F768B-F4E5-4241-887B-87515F00CFDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +331,14 @@ Global
 		{9985D7FB-82B2-4EB0-AA8A-339DC7046C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9985D7FB-82B2-4EB0-AA8A-339DC7046C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9985D7FB-82B2-4EB0-AA8A-339DC7046C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7997FFAB-B3FE-4C71-9A9A-C9309954A374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7997FFAB-B3FE-4C71-9A9A-C9309954A374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7997FFAB-B3FE-4C71-9A9A-C9309954A374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7997FFAB-B3FE-4C71-9A9A-C9309954A374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5F768B-F4E5-4241-887B-87515F00CFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5F768B-F4E5-4241-887B-87515F00CFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5F768B-F4E5-4241-887B-87515F00CFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5F768B-F4E5-4241-887B-87515F00CFDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
