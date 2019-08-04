@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.01.BirthdayCakeCandles", "HackerRank.01.BirthdayCakeCandles\HackerRank.01.BirthdayCakeCandles.csproj", "{7507124B-4F88-4DB4-9BC8-74D6054C43B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.02.GradingStudents", "HackerRank.02.GradingStudents\HackerRank.02.GradingStudents.csproj", "{1E42F233-0A14-412B-A015-5631BB3736F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.03.BreakingTheRecord", "HackerRank.03.BreakingTheRecord\HackerRank.03.BreakingTheRecord.csproj", "{0C75BF20-0946-4FC2-9CC9-506236B65D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.04.BirthDayCake", "HackerRank.04.BirthDayCake\HackerRank.04.BirthDayCake.csproj", "{00CEA8F0-33A9-4179-A997-E5127D0ABE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.DynamicProgramming.01.MaxArraySum", "HackerRank.DynamicProgramming.01.MaxArraySum\HackerRank.DynamicProgramming.01.MaxArraySum.csproj", "{94B2BE4A-8E9D-4B29-B480-575BC73341BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7507124B-4F88-4DB4-9BC8-74D6054C43B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7507124B-4F88-4DB4-9BC8-74D6054C43B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7507124B-4F88-4DB4-9BC8-74D6054C43B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7507124B-4F88-4DB4-9BC8-74D6054C43B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E42F233-0A14-412B-A015-5631BB3736F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E42F233-0A14-412B-A015-5631BB3736F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E42F233-0A14-412B-A015-5631BB3736F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E42F233-0A14-412B-A015-5631BB3736F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C75BF20-0946-4FC2-9CC9-506236B65D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C75BF20-0946-4FC2-9CC9-506236B65D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C75BF20-0946-4FC2-9CC9-506236B65D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C75BF20-0946-4FC2-9CC9-506236B65D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CEA8F0-33A9-4179-A997-E5127D0ABE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CEA8F0-33A9-4179-A997-E5127D0ABE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CEA8F0-33A9-4179-A997-E5127D0ABE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CEA8F0-33A9-4179-A997-E5127D0ABE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B2BE4A-8E9D-4B29-B480-575BC73341BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B2BE4A-8E9D-4B29-B480-575BC73341BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B2BE4A-8E9D-4B29-B480-575BC73341BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B2BE4A-8E9D-4B29-B480-575BC73341BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FD5451E-46D7-40EA-BE10-3C1D5D79CF4B}
+	EndGlobalSection
+EndGlobal

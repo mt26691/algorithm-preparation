@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>HackerRank.DynamicProgramming._01.MaxArraySum</RootNamespace>
+  </PropertyGroup>
+
+</Project>
